@@ -47,6 +47,8 @@ apis:
       - type: x-landing-portal
         url: https://date.gov.md
 common:
+  - type: DomainSecurity
+    url: security/dataset-gov-md-domain-security.yml
   - type: Website
     url: https://dataset.gov.md/
   - type: Documentation
