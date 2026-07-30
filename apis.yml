@@ -6,7 +6,18 @@ description: >-
   and exposes the standard CKAN Action API over approximately 1,275 datasets, supporting programmatic
   dataset search, metadata retrieval, and resource access. No API key is required for read endpoints.
 kind: government
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: unknown
+  onboarding: open
+  trial: false
+  try_now: false
+  public: true
+  label: Open access
+  confidence: medium
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dataset-gov-md.png
 url: https://raw.githubusercontent.com/api-evangelist/dataset-gov-md/refs/heads/main/apis.yml
 tags:
   - Open Data
