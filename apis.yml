@@ -6,6 +6,17 @@ description: >-
   and exposes the standard CKAN Action API over approximately 1,275 datasets, supporting programmatic
   dataset search, metadata retrieval, and resource access. No API key is required for read endpoints.
 kind: government
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: open
