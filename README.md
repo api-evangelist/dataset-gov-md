@@ -1,4 +1,4 @@
-# dataset.gov.md (dataset-gov-md)
+# dataset.gov.md (Portalul Datelor Deschise)
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,23 +64,84 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-dataset.gov.md (Portalul Datelor Deschise) is the national government open-data catalog for the Republic of Moldova, running **CKAN 2.10.4** over ~1,275 datasets. The landing portal date.gov.md links to this catalog.
+dataset.gov.md is the national government open-data catalog for the Republic of Moldova (Portalul Datelor Deschise). The landing portal at date.gov.md links out to this catalog, which runs CKAN 2.10.4 and exposes the standard CKAN Action API over approximately 1,275 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. No API key is required for read endpoints.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/dataset-gov-md/refs/heads/main/apis.yml)
+**Areas:** Open Data · CKAN · Data Catalog · DCAT · Government Data · National Government · Moldova · Europe
 
-## Type
-- **kind:** government  ·  **software:** CKAN  ·  **version:** 2.10.4
+## dataset.gov.md (Portalul Datelor Deschise) on APIs.io
 
-## API
-- **dataset.gov.md CKAN Action API** — base `https://dataset.gov.md/api/3/action`. [Docs](https://docs.ckan.org/en/2.10/api/) · [Portal](https://dataset.gov.md/)
-- Live endpoint verified: `https://dataset.gov.md/api/3/action/package_search?rows=0` · count=1,275
-- **Note:** the API is on `dataset.gov.md`, not the `date.gov.md` landing portal (all `date.gov.md/ckan/...` and `/api/3/...` paths 404).
+Everything profiled for dataset.gov.md (Portalul Datelor Deschise) is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/dataset-gov-md/](https://apis.io/providers/dataset-gov-md/)** — or go straight to one of the APIs or properties below.
 
-## Timestamps
-- **Created:** 2026-06-23
-- **Modified:** 2026-06-23
+### APIs (1)
 
-## Maintainers
-**FN:** Kin Lane
+- [dataset.gov.md CKAN Action API](https://apis.io/apis/dataset-gov-md/catalog/) — CKAN Action API for dataset.gov.md, a consistent JSON-over-HTTP interface over a catalog of roughly 1,275 datasets. Standard actions include package_search,…
 
-**Email:** kin@apievangelist.com
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Dataset Gov Md Domain Security](https://apis.io/security/dataset-gov-md/dataset-gov-md-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://dataset.gov.md/)
+- [Documentation](https://docs.ckan.org/en/2.10/api/)
+
+## API Evangelist rating
+
+**Kin Score 7.4** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 9.5 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Government & Public Sector
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/dataset-gov-md/](https://apis.io/providers/dataset-gov-md/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for dataset.gov.md (Portalul Datelor Deschise): the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/dataset-gov-md/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
